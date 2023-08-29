@@ -1,0 +1,24 @@
+xst -intstyle ise -ifn "C:/Users/ASUS/OneDrive - KMITL/Desktop/digital project/led3/led3.xst" -ofn "C:/Users/ASUS/OneDrive - KMITL/Desktop/digital project/led3/led3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc led3.ucf -p xc6slx9-tqg144-3 "led3.ngc" led3.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led3_map.ncd led3.ngd led3.pcf 
+par -w -intstyle ise -ol high -mt off led3_map.ncd led3.ncd led3.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml led3.twx led3.ncd -o led3.twr led3.pcf -ucf led3.ucf 
+bitgen -intstyle ise -f led3.ut led3.ncd 
+xst -intstyle ise -ifn "C:/Users/ASUS/OneDrive - KMITL/Desktop/digital project/led3/led3.xst" -ofn "C:/Users/ASUS/OneDrive - KMITL/Desktop/digital project/led3/led3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc led3.ucf -p xc6slx9-tqg144-3 "led3.ngc" led3.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led3_map.ncd led3.ngd led3.pcf 
+par -w -intstyle ise -ol high -mt off led3_map.ncd led3.ncd led3.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml led3.twx led3.ncd -o led3.twr led3.pcf -ucf led3.ucf 
+bitgen -intstyle ise -f led3.ut led3.ncd 
+xst -intstyle ise -ifn "C:/Users/ASUS/OneDrive - KMITL/Desktop/digital project/led3/led3.xst" -ofn "C:/Users/ASUS/OneDrive - KMITL/Desktop/digital project/led3/led3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc led3.ucf -p xc6slx9-tqg144-3 "led3.ngc" led3.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led3_map.ncd led3.ngd led3.pcf 
+par -w -intstyle ise -ol high -mt off led3_map.ncd led3.ncd led3.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml led3.twx led3.ncd -o led3.twr led3.pcf -ucf led3.ucf 
+bitgen -intstyle ise -f led3.ut led3.ncd 
+xst -intstyle ise -ifn "C:/Users/ASUS/OneDrive - KMITL/Desktop/digital project/led3/led3.xst" -ofn "C:/Users/ASUS/OneDrive - KMITL/Desktop/digital project/led3/led3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc led3.ucf -p xc6slx9-tqg144-3 "led3.ngc" led3.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led3_map.ncd led3.ngd led3.pcf 
+par -w -intstyle ise -ol high -mt off led3_map.ncd led3.ncd led3.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml led3.twx led3.ncd -o led3.twr led3.pcf -ucf led3.ucf 
+bitgen -intstyle ise -f led3.ut led3.ncd 

@@ -1,0 +1,27 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "in_ir" LOC = P24;
+NET "in_ir1" LOC = P22;
+NET "in_ir2" LOC = P17;
+NET "in_ir3" LOC = P15;
+NET "in_ir4" LOC = P12;
+NET "in_ir5" LOC = P10;
+NET "in_ir6" LOC = P8;
+NET "in_ir7" LOC = P6;
+NET "LED0" LOC = P82;
+NET "LED1" LOC = P81;
+NET "LED2" LOC = P80;
+NET "LED3" LOC = P79;
+NET "LED4" LOC = P78;
+NET "LED5" LOC = P75;
+NET "LED6" LOC = P74;
+NET "LED7" LOC = P67;
+NET "OUT1" LOC = P1;
+NET "OUT2" LOC = P142;
+NET "OUT3" LOC = P140;
+NET "OUT4" LOC = P138;
+NET "OUT5" LOC = P134;
+NET "OUT6" LOC = P132;
+NET "OUT7" LOC = P127;
+NET "OUT8" LOC = P124;

@@ -1,0 +1,67 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml fpga.twx fpga.ncd -o fpga.twr fpga.pcf -ucf fpga.ucf
+
+Design file:              fpga.ncd
+Physical constraint file: fpga.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+in_ir          |LED0           |    6.976|
+in_ir          |OUT1           |    7.285|
+in_ir1         |LED1           |    7.314|
+in_ir1         |OUT2           |    7.657|
+in_ir2         |LED2           |    7.338|
+in_ir2         |OUT3           |    7.723|
+in_ir3         |LED3           |    7.676|
+in_ir3         |OUT4           |    7.067|
+in_ir4         |LED4           |    8.615|
+in_ir4         |OUT5           |    6.607|
+in_ir5         |LED5           |    9.589|
+in_ir5         |OUT6           |    6.476|
+in_ir6         |LED6           |    9.717|
+in_ir6         |OUT7           |    6.785|
+in_ir7         |LED7           |   10.006|
+in_ir7         |OUT8           |    6.835|
+---------------+---------------+---------+
+
+
+Analysis completed Sat Dec 10 21:09:51 2022 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4570 MB
+
+
+

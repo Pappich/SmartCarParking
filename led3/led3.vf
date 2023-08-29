@@ -1,0 +1,74 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : led3.vf
+// /___/   /\     Timestamp : 12/10/2022 15:48:10
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog "C:/Users/ASUS/OneDrive - KMITL/Desktop/digital project/led3/led3.vf" -w "C:/Users/ASUS/OneDrive - KMITL/Desktop/digital project/led3/led3.sch"
+//Design Name: led3
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module led3(in_ir, 
+            in_ir1, 
+            in_ir2, 
+            in_ir3, 
+            in_ir4, 
+            in_ir5, 
+            in_ir6, 
+            in_ir7, 
+            LED0, 
+            LED1, 
+            LED2, 
+            LED3, 
+            LED4, 
+            LED5, 
+            LED6, 
+            LED7);
+
+    input in_ir;
+    input in_ir1;
+    input in_ir2;
+    input in_ir3;
+    input in_ir4;
+    input in_ir5;
+    input in_ir6;
+    input in_ir7;
+   output LED0;
+   output LED1;
+   output LED2;
+   output LED3;
+   output LED4;
+   output LED5;
+   output LED6;
+   output LED7;
+   
+   
+   BUF  XLXI_1 (.I(in_ir), 
+               .O(LED0));
+   BUF  XLXI_2 (.I(in_ir1), 
+               .O(LED1));
+   BUF  XLXI_3 (.I(in_ir2), 
+               .O(LED2));
+   BUF  XLXI_4 (.I(in_ir3), 
+               .O(LED3));
+   BUF  XLXI_5 (.I(in_ir4), 
+               .O(LED4));
+   BUF  XLXI_6 (.I(in_ir5), 
+               .O(LED5));
+   BUF  XLXI_7 (.I(in_ir6), 
+               .O(LED6));
+   BUF  XLXI_8 (.I(in_ir7), 
+               .O(LED7));
+endmodule

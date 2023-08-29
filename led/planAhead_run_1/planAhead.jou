@@ -1,0 +1,75 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Sat Dec 10 14:58:29 2022
+# Process ID: 15156
+# Log file: C:/Users/ASUS/OneDrive - KMITL/Desktop/digital project/led/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/ASUS/OneDrive - KMITL/Desktop/digital project/led/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/ASUS/OneDrive - KMITL/Desktop/digital project/led/pa.fromHdl.tcl}
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin P1 [get_ports in_ir]
+endgroup
+startgroup
+set_property package_pin P5 [get_ports in_ir1]
+endgroup
+startgroup
+set_property package_pin P22 [get_ports in_ir]
+endgroup
+startgroup
+set_property package_pin P5 [get_ports in_ir1]
+endgroup
+startgroup
+set_property package_pin P24 [get_ports in_ir]
+endgroup
+startgroup
+set_property package_pin P22 [get_ports in_ir1]
+endgroup
+startgroup
+set_property package_pin P17 [get_ports in_ir2]
+endgroup
+startgroup
+set_property package_pin P15 [get_ports in_ir3]
+endgroup
+startgroup
+set_property package_pin P12 [get_ports in_ir4]
+endgroup
+startgroup
+set_property package_pin P10 [get_ports in_ir5]
+endgroup
+startgroup
+set_property package_pin P8 [get_ports in_ir6]
+endgroup
+startgroup
+set_property package_pin P6 [get_ports in_ir7]
+endgroup
+startgroup
+set_property package_pin P82 [get_ports LED0]
+endgroup
+startgroup
+set_property package_pin P81 [get_ports LED1]
+endgroup
+startgroup
+set_property package_pin P80 [get_ports LED2]
+endgroup
+startgroup
+set_property package_pin P79 [get_ports LED3]
+endgroup
+startgroup
+set_property package_pin P78 [get_ports LED4]
+endgroup
+startgroup
+set_property package_pin P75 [get_ports LED5]
+endgroup
+startgroup
+set_property package_pin P74 [get_ports LED6]
+endgroup
+startgroup
+set_property package_pin P67 [get_ports LED7]
+endgroup
+startgroup
+set_property package_pin P2 [get_ports Output1]
+endgroup
+save_constraints

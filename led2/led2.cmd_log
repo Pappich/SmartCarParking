@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/ASUS/OneDrive - KMITL/Desktop/digital project/led2/led2.xst" -ofn "C:/Users/ASUS/OneDrive - KMITL/Desktop/digital project/led2/led2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc led2.ucf -p xc6slx9-tqg144-3 "led2.ngc" led2.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led2_map.ncd led2.ngd led2.pcf 
+par -w -intstyle ise -ol high -mt off led2_map.ncd led2.ncd led2.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml led2.twx led2.ncd -o led2.twr led2.pcf -ucf led2.ucf 
+bitgen -intstyle ise -f led2.ut led2.ncd 

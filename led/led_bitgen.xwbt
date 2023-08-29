@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\ASUS\OneDrive - KMITL\Desktop\digital project\led\led.ncd
+OUTFILE=C:\Users\ASUS\OneDrive - KMITL\Desktop\digital project\led\led.bit
+FAMILY=Spartan6
+PART=xc6slx9-3tqg144
+WORKINGDIR=C:\Users\ASUS\OneDrive - KMITL\Desktop\digital project\led
+LICENSE=WebPack
+USER_INFO=__0_0_0

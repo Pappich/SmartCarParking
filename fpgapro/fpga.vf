@@ -1,0 +1,122 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : fpga.vf
+// /___/   /\     Timestamp : 12/10/2022 21:04:29
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog "C:/Users/ASUS/OneDrive - KMITL/Desktop/digital project/fpgapro/fpga.vf" -w "C:/Users/ASUS/OneDrive - KMITL/Desktop/digital project/fpgapro/fpga.sch"
+//Design Name: fpga
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module fpga(in_ir, 
+            in_ir1, 
+            in_ir2, 
+            in_ir3, 
+            in_ir4, 
+            in_ir5, 
+            in_ir6, 
+            in_ir7, 
+            LED0, 
+            LED1, 
+            LED2, 
+            LED3, 
+            LED4, 
+            LED5, 
+            LED6, 
+            LED7, 
+            OUT1, 
+            OUT2, 
+            OUT3, 
+            OUT4, 
+            OUT5, 
+            OUT6, 
+            OUT7, 
+            OUT8);
+
+    input in_ir;
+    input in_ir1;
+    input in_ir2;
+    input in_ir3;
+    input in_ir4;
+    input in_ir5;
+    input in_ir6;
+    input in_ir7;
+   output LED0;
+   output LED1;
+   output LED2;
+   output LED3;
+   output LED4;
+   output LED5;
+   output LED6;
+   output LED7;
+   output OUT1;
+   output OUT2;
+   output OUT3;
+   output OUT4;
+   output OUT5;
+   output OUT6;
+   output OUT7;
+   output OUT8;
+   
+   wire LED0_DUMMY;
+   wire LED1_DUMMY;
+   wire LED2_DUMMY;
+   wire LED3_DUMMY;
+   wire LED4_DUMMY;
+   wire LED5_DUMMY;
+   wire LED6_DUMMY;
+   wire LED7_DUMMY;
+   
+   assign LED0 = LED0_DUMMY;
+   assign LED1 = LED1_DUMMY;
+   assign LED2 = LED2_DUMMY;
+   assign LED3 = LED3_DUMMY;
+   assign LED4 = LED4_DUMMY;
+   assign LED5 = LED5_DUMMY;
+   assign LED6 = LED6_DUMMY;
+   assign LED7 = LED7_DUMMY;
+   BUF  XLXI_1 (.I(in_ir), 
+               .O(LED0_DUMMY));
+   BUF  XLXI_2 (.I(in_ir1), 
+               .O(LED1_DUMMY));
+   BUF  XLXI_3 (.I(in_ir2), 
+               .O(LED2_DUMMY));
+   BUF  XLXI_4 (.I(in_ir3), 
+               .O(LED3_DUMMY));
+   BUF  XLXI_5 (.I(in_ir4), 
+               .O(LED4_DUMMY));
+   BUF  XLXI_6 (.I(in_ir5), 
+               .O(LED5_DUMMY));
+   BUF  XLXI_7 (.I(in_ir6), 
+               .O(LED6_DUMMY));
+   BUF  XLXI_8 (.I(in_ir7), 
+               .O(LED7_DUMMY));
+   BUF  XLXI_11 (.I(LED0_DUMMY), 
+                .O(OUT1));
+   BUF  XLXI_12 (.I(LED1_DUMMY), 
+                .O(OUT2));
+   BUF  XLXI_13 (.I(LED2_DUMMY), 
+                .O(OUT3));
+   BUF  XLXI_14 (.I(LED3_DUMMY), 
+                .O(OUT4));
+   BUF  XLXI_16 (.I(LED4_DUMMY), 
+                .O(OUT5));
+   BUF  XLXI_17 (.I(LED5_DUMMY), 
+                .O(OUT6));
+   BUF  XLXI_18 (.I(LED6_DUMMY), 
+                .O(OUT7));
+   BUF  XLXI_19 (.I(LED7_DUMMY), 
+                .O(OUT8));
+endmodule

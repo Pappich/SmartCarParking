@@ -1,0 +1,24 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sat Dec 10 15:28:38 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "in_ir1" LOCATE = SITE "P22" LEVEL 1;
+COMP "in_ir2" LOCATE = SITE "P17" LEVEL 1;
+COMP "in_ir3" LOCATE = SITE "P15" LEVEL 1;
+COMP "in_ir4" LOCATE = SITE "P12" LEVEL 1;
+COMP "in_ir5" LOCATE = SITE "P10" LEVEL 1;
+COMP "in_ir6" LOCATE = SITE "P8" LEVEL 1;
+COMP "in_ir7" LOCATE = SITE "P6" LEVEL 1;
+COMP "in_ir" LOCATE = SITE "P24" LEVEL 1;
+COMP "LED0" LOCATE = SITE "P82" LEVEL 1;
+COMP "LED1" LOCATE = SITE "P81" LEVEL 1;
+COMP "LED2" LOCATE = SITE "P80" LEVEL 1;
+COMP "LED3" LOCATE = SITE "P79" LEVEL 1;
+COMP "LED4" LOCATE = SITE "P78" LEVEL 1;
+COMP "LED5" LOCATE = SITE "P75" LEVEL 1;
+COMP "LED6" LOCATE = SITE "P74" LEVEL 1;
+COMP "LED7" LOCATE = SITE "P67" LEVEL 1;
+COMP "Output1" LOCATE = SITE "P2" LEVEL 1;
+SCHEMATIC END;
+

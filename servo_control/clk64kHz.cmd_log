@@ -1,0 +1,4 @@
+vhdtdtfi -lib work clk64kHz.vhd -prj servo_control -o clk64kHz.spl -module clk64kHz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 clk64kHz.spl {C:/Users/ASUS/OneDrive - KMITL/Desktop/digital project/servo_control/clk64kHz.sym} 
+vhdtdtfi -lib work clk64kHz.vhd -prj servo_control -o clk64kHz.spl -module clk64kHz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 clk64kHz.spl {C:/Users/ASUS/OneDrive - KMITL/Desktop/digital project/servo_control/clk64kHz.sym} 
